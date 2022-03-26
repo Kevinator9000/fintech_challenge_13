@@ -14,6 +14,7 @@ This program utilizes Jupyter Lab with the following libraries:
 First, the program reads the csv file found in the Resources folder into a DataFrame. Next, we prepare the DataFrame for the model. We utilize OneHotEncoder to transform our
 catagorical data into numerical. Then we use StandardScaler to scale our data. Next, thr original model is then created using the parameters provided by the assignment. 
 Then, we create two more models in an attempt to optomize our model. Finally, we save our models as HDF5 files in the Resources folder.
+
 ---
 ## Contributors
 Kevin Gross
